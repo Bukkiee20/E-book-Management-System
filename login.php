@@ -1,6 +1,5 @@
 <?php
     include "include/add.php";
-    
 ?>
 
 <!DOCTYPE html>

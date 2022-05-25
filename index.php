@@ -48,8 +48,8 @@
 
              if(mysqli_num_rows($results)){
                 while($row= mysqli_fetch_array($results)){ ?>
-                  <div class="bg-gray-300 overflow-hidden shadow-lg max-w-sm rounded">
-                    <img src="images/<?php echo $row["image_name"]?>" alt="book-cover" class="w-full">
+                  <div class="bg-gray-200 overflow-hidden shadow-2xl rounded">
+                    <img src="images/<?php echo $row["image_name"]?>" alt="book-cover" class="w-full h-60 w-30">
                    
                       <div class="px-6 pb-2 pt-4">
                           <h2 class="font-bold text-blue-500 text-xl"><?php echo $row["book_name"] ?></h2>
